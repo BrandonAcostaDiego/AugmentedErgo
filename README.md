@@ -1,7 +1,7 @@
 # Mouse Movement Analyzer
 
 ## Overview
-A Python-based tool designed to help gamers optimize their training sessions by tracking and analyzing mouse movement patterns. This application monitors user inputs, helping users identify patterns to improve efficiency.
+A Python-based tool designed to help gamers optimize their training sessions by tracking and analyzing mouse input data.
 
 ## Key Features
 - Real-time mouse input tracking (in progress)
