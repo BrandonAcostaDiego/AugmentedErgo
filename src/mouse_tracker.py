@@ -15,7 +15,7 @@ class MouseTracker:
         self.current_velocity = 0
         self.peak_velocity = 0
         self.mouse_clicks = 0
-        pass
+        self.current_distance = 0.0
 
 ## distance mouse position, Velocity mouse precision
     def _on_move(self, x, y):
@@ -39,9 +39,8 @@ class MouseTracker:
 
                 if velocity > self.peak_velocity:
                     self.peak_velocity = velocity
-
-
-                if 100 <= velocity <= 500 and self.current_distance >= 100:
+                #new idea: if velocity is approximately the steady in time, say, within 100 pixels, then precision aim effort increases
+                if 100 <= velocity <= 500:
                     self.precision_movement += 0.01
             self.time = current_time
         self.last_position = current_position
@@ -52,7 +51,7 @@ class MouseTracker:
 
 
 
-## start button -> stop button
+## Buttons: start, stop, reset
 #
     def start_tracking(self):
         self.is_tracking = True
@@ -65,15 +64,30 @@ class MouseTracker:
         self.listener.start()
 
 #
-    def stop_tracking(self):
-        self.is_tracking = False
-        self.listener.stop()
-        self.listener.join()
-        self.listener = None
+    def pause_tracking(self):
+        if self.is_tracking:
+            self.listener.stop()
+            self.listener.join()
+            self.listener = None
 
+            self.current_distance = 0.0
+            self.current_velocity = 0
+            self.last_position = None
+
+    def reset_tracking(self):
+        if self.listener:
+            self.pause_tracking()
+
+        # Reset all values
+        self.is_tracking = False
         self.current_distance = 0.0
         self.current_velocity = 0
         self.last_position = None
+        self.time = time.time()
+        self.precision_movement = 0
+        self.mouse_clicks = 0
+        self.total_distance = 0.0
+        self.peak_velocity = 0
 
 #### data manipulation
 #
