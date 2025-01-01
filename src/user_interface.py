@@ -109,7 +109,7 @@ class user_interface:
 #
     def reset_display(self):
         self.distance_label.config(text="Current Distance: 0.00 cm")
-        self.velocity_label.config(text="Current Velocity: 0.00 pixels/sec")
+        self.velocity_label.config(text="Current Velocity: 0.00 pixels/s")
 
 #
     def start_tracking(self):

@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cb8da02-19b4-4a41-8a85-b659e3f3853c" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MouseProject3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MouseProject3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mouse_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mouse_tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/credentials_template.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_mouse_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_mouse_tracker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +68,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\diego\PycharmProjects\MouseProject3" />
+      <recent name="C:\Users\diego\PycharmProjects\MouseProject3\src" />
+      <recent name="C:\Users\diego\PycharmProjects\MouseProject3\images" />
       <recent name="C:\Users\diego\PycharmProjects\MouseProject3\data" />
       <recent name="C:\Users\diego\PycharmProjects\MouseProject3\test" />
-      <recent name="C:\Users\diego\PycharmProjects\MouseProject3\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -139,7 +144,9 @@
       <workItem from="1735502832515" duration="3414000" />
       <workItem from="1735510106693" duration="3860000" />
       <workItem from="1735518638598" duration="2236000" />
-      <workItem from="1735600840957" duration="9383000" />
+      <workItem from="1735600840957" duration="11094000" />
+      <workItem from="1735648434943" duration="1992000" />
+      <workItem from="1735707651894" duration="7033000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -171,9 +178,9 @@
     <SUITE FILE_PATH="coverage/MouseProject3$.coverage" NAME=" Coverage Results" MODIFIED="1734739960612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/test" />
     <SUITE FILE_PATH="coverage/MouseProject3$test_mouse_tracker.coverage" NAME="test_mouse_tracker Coverage Results" MODIFIED="1735502853972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/test" />
     <SUITE FILE_PATH="coverage/MouseProject3$win32.coverage" NAME="win32 Coverage Results" MODIFIED="1735499962997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/Lib/site-packages/pynput/_util" />
-    <SUITE FILE_PATH="coverage/MouseProject3$main.coverage" NAME="main Coverage Results" MODIFIED="1735499094575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/MouseProject3$main.coverage" NAME="main Coverage Results" MODIFIED="1735715192446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MouseProject3$mouse_tracker.coverage" NAME="mouse_tracker Coverage Results" MODIFIED="1735601072568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/MouseProject3$userinterface.coverage" NAME="userinterface Coverage Results" MODIFIED="1735607541497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/MouseProject3$user_interface.coverage" NAME="user_interface Coverage Results" MODIFIED="1735610282661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MouseProject3$user_interface.coverage" NAME="user_interface Coverage Results" MODIFIED="1735715389828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

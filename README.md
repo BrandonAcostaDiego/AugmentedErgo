@@ -22,6 +22,19 @@ A Python-based tool designed to help gamers optimize their training sessions by 
 - Mouse tracking (DONE)
 - Basic data collection (~Jan)
 - Simple user interface (DONE)
+### Current Application States
+
+[Start]
+
+![OnFnc-CsrSe.JPG](images/OnFnc-CsrSe.JPG)
+
+[Pause]
+
+![PseFnc-CsrSe.JPG](images/PseFnc-CsrSe.JPG)
+
+[Reset]
+
+![RstFnc-CsrSe.JPG](images/RstFnc-CsrSe.JPG)
 
 ### Phase 2 - Data Analysis (~Feb)
 - Statistical analysis of movement patterns
