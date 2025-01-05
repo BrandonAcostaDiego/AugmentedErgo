@@ -1,4 +1,7 @@
-# CursorSense
+# CursorSense.v1
+
+## Project Status
+This version of CursorSense has been archived due to performance considerations. Development shift to a new, more optimized approach on lightweight data collection and processing.
 
 ## Overview
 A Python-based tool designed to help gamers optimize their training sessions by tracking and analyzing mouse input data.
@@ -19,9 +22,9 @@ A Python-based tool designed to help gamers optimize their training sessions by 
 
 ## Development Roadmap
 ### Phase 1 - Core Functionality
-- Mouse tracking (DONE)
-- Basic data collection (~Jan)
-- Simple user interface (DONE)
+- Mouse tracking 
+- Basic data collection 
+- Simple user interface 
 ### Current Application States
 
 [Start]
@@ -36,12 +39,16 @@ A Python-based tool designed to help gamers optimize their training sessions by 
 
 ![RstFnc-CsrSe.JPG](images/RstFnc-CsrSe.JPG)
 
-### Phase 2 - Data Analysis (~Feb)
+### Phase 2 - Data Analysis 
 - Statistical analysis of movement patterns
 - Historical data visualization
 - Session comparison tools
 
-### Phase 3 - AI Integration (~March)
+[InfluxDB]
+
+![Data.JPG](images/Data.JPG)
+
+### Phase 3 - AI Integration 
 - Movement pattern recognition
 - Fatigue detection algorithms
 - Automated break recommendations

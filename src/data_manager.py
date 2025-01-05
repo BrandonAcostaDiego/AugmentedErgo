@@ -40,6 +40,7 @@ def load_credentials():
 
     return creds
 
+
 class DataManager:
     def __init__(self, tracker=None):
         self.tracker = tracker
